@@ -21,6 +21,7 @@ public class finHelp {
 
             while (true) {
                 System.out.println("Что вы хотите сделать?");
+                System.out.println();
                 System.out.println("1 - Конвертировать валюту");
                 System.out.println("2 - Получить совет");
                 System.out.println("3 - Ввести трату");
