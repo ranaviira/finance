@@ -42,7 +42,8 @@ public class finHelp {
 
 
         }
-        return moneyBeforeSalary;                                                                                       }
+        return moneyBeforeSalary;
+    }
 
     public static void printAllExpenses(double[] expenses){
         for (int i = 0; i < expenses.length; i++) {
@@ -59,7 +60,6 @@ public class finHelp {
         }
         return maxExpense;
     }
-
 
     public static void printMenu() {
         System.out.println("Что вы хотите сделать? ");
