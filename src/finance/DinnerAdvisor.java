@@ -5,22 +5,27 @@ public class DinnerAdvisor {
     void getAdvice(double moneyBeforeSalary, int daysBeforeSalary) {
         if (moneyBeforeSalary < 3000) {
             System.out.println("Сегодня лучше поесть дома. Экономьте, и вы дотянете до зарплаты!");
-        } else if (moneyBeforeSalary < 10000) {
+        }
+        else if (moneyBeforeSalary < 10000) {
             if (daysBeforeSalary < 10) {
                 System.out.println("Окей, пора в Макдак!");
-            } else {
+            }
+            else {
                 System.out.println("Сегодня лучше поесть дома. Экономьте, и вы дотянете до зарплаты!");
             }
         } else if (moneyBeforeSalary < 30000) {
             if (daysBeforeSalary < 10) {
                 System.out.println("Неплохо! Прикупите долларов и зайдите поужинать в классное место. :)");
-            } else {
+            }
+            else {
                 System.out.println("Окей, пора в Макдак!");
             }
-        } else {
+        }
+        else {
             if (daysBeforeSalary < 10) {
                 System.out.println("Отлично! Заказывайте крабов!");
-            } else {
+            }
+            else {
                 System.out.println("Неплохо! Прикупите долларов и зайдите поужинать в классное место. :)");
             }
         }

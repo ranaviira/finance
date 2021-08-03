@@ -2,10 +2,7 @@ package finance;
 
 class ExpensesManager {
 
-
-
     double[] expenses = new double[7];
-
 
     double saveExpense(double moneyBeforeSalary, double expense, int day) {
 
